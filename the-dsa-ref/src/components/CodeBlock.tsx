@@ -5,10 +5,10 @@ import { highlightCode } from '@/lib/highlight';
 
 interface CodeBlockProps {
   code: string;
-  language?: string;
+  language: string;
 }
 
-export function CodeBlock({ code, language = 'typescript' }: CodeBlockProps) {
+export function CodeBlock({ code, language }: CodeBlockProps) {
   const [highlightedCode, setHighlightedCode] = useState('');
 
   useEffect(() => {

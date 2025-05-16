@@ -1,12 +1,6 @@
-import { Metadata } from 'next';
-import { dsaData } from '@/data/dsaData';
+import { dsaData } from '@/lib/dsaData';
 import { ExpandableCard } from '@/components/ExpandableCard';
 import { CodeBlock } from '@/components/CodeBlock';
-
-export const metadata: Metadata = {
-  title: 'DSA Reference',
-  description: 'A comprehensive reference for Data Structures and Algorithms',
-};
 
 export default function HomePage() {
   const dataStructures = dsaData.filter(item => item.category === 'data-structures');
@@ -44,7 +38,7 @@ export default function HomePage() {
                         <p className="text-sm text-gray-600">{item.complexity.space}</p>
                       </div>
                     </div>
-                    <CodeBlock code={item.code} />
+                    <CodeBlock code={item.code} language="cpp" />
                   </div>
                 </ExpandableCard>
               ))}
@@ -72,7 +66,7 @@ export default function HomePage() {
                           <p className="text-sm text-gray-600">{item.complexity.space}</p>
                         </div>
                       </div>
-                      <CodeBlock code={item.code} />
+                      <CodeBlock code={item.code} language="cpp" />
                     </div>
                   </ExpandableCard>
                 ))

@@ -33,5 +33,6 @@ export const dsaData: DSAItem[] = [
     },
     code: '// Linked List Node in TypeScript\nclass ListNode<T> {\n  constructor(\n    public value: T,\n    public next: ListNode<T> | null = null\n  ) {}\n}'
   },
-  // Add more data structures and algorithms here
+
+  // Keep adding more data structures and algorithms items
 ];

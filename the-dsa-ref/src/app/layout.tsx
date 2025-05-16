@@ -6,8 +6,8 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'DSA Learning Site',
-  description: 'Explore data structures and algorithms with interactive code and explanations.',
+  title: 'DSA Reference',
+  description: 'Explore data structures and algorithms with explaniations and implemenations in different coding languages.',
 }
 
 export default function RootLayout({
