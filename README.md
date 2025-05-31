@@ -21,7 +21,7 @@ A personal and educational site designed to help learners explore and understand
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/ds-algo-site.git
+   git clone https://github.com/your-username/theDSARef.git
    cd ds-algo-site
    ```
 
@@ -41,14 +41,16 @@ A personal and educational site designed to help learners explore and understand
 
    ```bash
    src/
-   ├── app/                # Next.js App Router pages
-   │   └── page.tsx        # Home page with examples
-   ├── components/         # Reusable UI components
-   │   └── CodeBlock.tsx   # Server component to render highlighted code
-   ├── lib/                # Utility functions
-   │   └── highlight.ts    # Shiki-based code highlighting logic
+   ├── app/                      # Next.js App Router pages
+   │   └── page.tsx              # Home page with a list of dsa topics
+   ├── components/               # Reusable UI components
+   │   └── CodeBlock.tsx         # Component for highlighted dsa code snippets
+   │   └── ExpandableCard.tsx    # Component for expandable cards
+   ├── lib/                      # Utility functions
+   │   └── highlight.ts          # Shiki-based code highlighting logic
+   │   └── dsaData.ts            # Structures containing the info for the dsa code snippets
    ├── styles/
-   │   └── globals.css     # Tailwind base styles
+   │   └── globals.css           # Tailwind base styles
    ```
 
 ## ✨ Coming Soon
