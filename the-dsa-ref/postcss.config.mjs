@@ -1,4 +1,4 @@
-//import typography from '@tailwindcss/typography';
+import typography from '@tailwindcss/typography';
 
 export default {
   plugins: {
@@ -25,9 +25,9 @@ export default {
           },
         },
       },
-      //plugins: [
-      //  typography,
-      //],
+      plugins: [
+        typography,
+      ],
     },
   },
 };
