@@ -1,3 +1,5 @@
+//import typography from '@tailwindcss/typography';
+
 export default {
   plugins: {
     '@tailwindcss/postcss': {
@@ -23,9 +25,9 @@ export default {
           },
         },
       },
-      plugins: [
-        require('@tailwindcss/typography'),
-      ],
+      //plugins: [
+      //  typography,
+      //],
     },
   },
 };
