@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'DSA Reference',
   description: 'Explore data structures and algorithms with explaniations and implemenations in different coding languages.',
+  icons: {
+    icon: '/dsaRef.png',
+  },
 }
 
 export default function RootLayout({
