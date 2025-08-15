@@ -22,7 +22,7 @@ A personal and educational site designed to help learners explore and understand
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/theDSARef.git
-   cd ds-algo-site
+   cd the-dsa-ref
    ```
 
 2. **Install dependencies**:
