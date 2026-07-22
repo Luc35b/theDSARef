@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import '../styles/globals.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import VantaWavesBackground from '../components/VantaWavesBackground'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-gray-100 text-gray-900 min-h-screen flex flex-col`}>
+        <VantaWavesBackground />
         <header className="bg-white text-gray-900 shadow-sm p-4">
           <nav className="flex justify-between items-center px-8">
             <div className="flex items-center space-x-4">
