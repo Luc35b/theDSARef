@@ -1,23 +1,23 @@
-# 📚 Data Structures & Algorithms Learning Site
+# Data Structures & Algorithms Learning Site
 
 A personal and educational site designed to help learners explore and understand fundamental data structures and algorithms. Built using **Next.js**, **Tailwind CSS**, and **Shiki** for fast performance, beautiful styling, and server-rendered code highlighting.
 
-## 🚀 Features
+## Features
 
-- 📖 A growing list of data structures and algorithms
-- 🧠 Concise explanations and time/space complexity analysis
-- 💡 Expandable sections with examples and implementation code
-- 🌈 Syntax-highlighted code snippets using Shiki
-- 📱 Responsive and mobile-friendly UI with Tailwind CSS
+- A growing list of data structures and algorithms
+- Concise explanations and time/space complexity analysis
+- Expandable sections with examples and implementation code
+- Syntax-highlighted code snippets using Shiki
+- Responsive and mobile-friendly UI with Tailwind CSS
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **[Next.js](https://nextjs.org/)** – React framework with file-based routing and static rendering
 - **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first CSS framework for styling
 - **[Shiki](https://shiki.matsu.io/)** – Fast, VS Code-quality syntax highlighting for code snippets
 - **TypeScript** – Strongly typed JavaScript for improved DX and safety
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -37,7 +37,7 @@ A personal and educational site designed to help learners explore and understand
 
 4. Open http://localhost:3000 in your browser.
   
-## ✍️ File Structure Overview
+## File Structure Overview
 
    ```bash
    src/
@@ -53,11 +53,11 @@ A personal and educational site designed to help learners explore and understand
    │   └── globals.css           # Tailwind base styles
    ```
 
-## ✨ Coming Soon
+## Coming Soon
 
 ## 📄 License
 MIT License © 2025 Lucas Baraya
 
-## 🙌 Contributions
+## Contributions
 PRs, issues, and feedback are welcome! This is a learning-focused project aimed at making DSA more approachable for everyone.
 
